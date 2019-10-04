@@ -449,7 +449,7 @@ spec:
               name: azureoperatorsettings
         - name: REQUEUE_AFTER
           value: "30"
-        image: docker.io/frodopwns/ctest:2
+        image: docker.io/frodopwns/ctest:3
         name: manager
         ports:
         - containerPort: 443
